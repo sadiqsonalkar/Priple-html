@@ -1,0 +1,73 @@
+<style >
+	body{
+		background-color: lightblue;
+	}
+	.head1{
+		font-style: bold;
+		background-color: white;
+		color:orange;
+	}
+	.sec1{
+		font-style: bold;
+		color:orange;
+		background-color: lightgreen;
+	}
+	.sec2{
+		font-style: bold;
+		background-color: black;
+		color:red;
+	}
+	.sec2 #ul1{
+		list-style-type: square;
+	}
+	.sec3{
+		font-style: bold;
+		background-color: yellow;
+		color:green;
+	}
+	.sec3 #ol1{
+   list-style-type: upper-roman;
+	}
+	.foot1{
+		padding: 15px;
+		font-style: italic;
+	}
+	.head1 #sp1{
+		font-style: italic;
+	}
+	.head1 #sp2{
+		text-decoration-style: underline;
+	}
+	.head1 #sp3{
+		font-style: bold;
+	}
+	.head1 .sp4{
+		color:red; 
+	}
+
+	.head1,.sec1,.sec2,.sec3,.foot1{
+	text-align: center;
+	}
+	@media  screen and (max-width: 800px) {
+		.head1,.sec1,.sec2,.sec3,.foot1{
+			padding:50px ;
+			font-size:50px ;
+			border:8px solid black;
+			background:yellow ;
+		
+	}
+}
+	@media screen  and (max-width: 750px) ,(min-width: 401) {
+		.head1,.sec1,.sec2,.sec3,.foot1{
+			padding:10px ;
+			font-size:20px ;
+			border:8px solid yellowgreen;
+			background: pink;
+		
+	}
+}
+img {
+	width: 360px;
+}
+}
+</style>

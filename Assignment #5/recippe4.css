@@ -1,0 +1,100 @@
+body{background-color:powderblue;}
+        p{font-size:25px;}
+        h1{font-style:italic;}
+        h3{font-style:italic;}
+        h3{font-style:bold;}
+        
+        h1{padding:0px 0px 20px 0px;}
+        h2{padding:0px 0px 20px 0px;}
+        h3{padding:0px 0px 20px 0px;}
+        h4{padding:0px 0px 20px 0px;}
+        h3{border:5px solid blue;}
+        h1.welcomeclass
+        {
+        	font-style:italic;
+        	color:#833F9F;
+        }
+        h2.nameclass
+        {
+        	border-color: #37BA6A;
+        	font-family:italic;
+        	text-shadow: none;
+			color:#F6A713;;
+        }
+        h4.favsnack
+        {
+        	color:#007BFF;
+        	border-bottom-color: #999;
+        }
+        p.descp
+        {
+        	font-size:25px;
+        	
+        }
+        h4.moredesc
+        {
+        	color:#567E41;
+        }
+        h4.more3
+        {
+        	background-color:#6D3E90;
+        	color:white;
+        }
+        h4.detail
+        {
+        	border-color:red;
+        	color:#0004FF;
+        }
+        p.morere
+        {
+        	font-size:25px;
+        	color:#0004FF;
+        	font-family:'Work Sans', sans-serif;
+        }
+        ol.ol1
+        {
+        	font-style:bold;
+        	color:#37575F;
+        }
+        ul
+		{
+			font-family:"Comic Sans MS";
+			color:#168A23;
+			margin-right:20px;
+		}
+		ul li
+		{
+			list-style: none;
+		}
+		ul li::before
+		{
+			content:"\2764";
+		}
+		#roma li
+		{
+			list-style-type:upper-roman;
+		}
+        ol.ol2
+        {
+        	background-color:#A68383;
+        }
+        h3.thanks
+        {
+        	font-style:italic;
+        	font-style:bold;
+        	color:#45C855;
+        }
+        p span 
+        {
+        	font-weight:bold;
+        	font-style:italic;
+        }
+        p span:last-of-type
+        {
+        	text-decoration:underline;
+        }
+        .special
+        {
+        	font-style:normal;
+        	color:red;
+        }
